@@ -1,0 +1,157 @@
+{
+  "file": "preview_v2.mp4",
+  "sha256": "97865a66ab6c7e42f8f5e35dc516a504c5980acee6c297222e7b06787c7f57f2",
+  "video": {
+    "codec": "h264",
+    "resolution": [
+      720,
+      1280
+    ],
+    "fps": 30,
+    "frames": 240,
+    "duration": 8.0
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "duration": 8.0
+  },
+  "full_decode": "passed",
+  "complete_source_pngs": 240,
+  "source_render": {
+    "resolution": [
+      540,
+      960
+    ],
+    "fps": 30,
+    "engine": "Blender Eevee CPU/software graphics",
+    "samples": 4,
+    "motion_interpolation": false
+  },
+  "delivery_processing": "Mild denoising and Lanczos upscaling; original authored 30 fps poses preserved",
+  "dialogue_lines": 16,
+  "voices_checked": 16,
+  "voice_engine": "Piper TTS 1.8.0 / ONNX Runtime 1.31.1 CPU",
+  "voice_model": "en-us-libritts-high (official Piper v0.0.2 release)",
+  "voice_license": "CC BY 4.0 (official model card dataset license)",
+  "voice_checks": [
+    {
+      "file": "line_00.wav",
+      "rate": 48000,
+      "duration": 3.390125,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.1585650378057548
+    },
+    {
+      "file": "line_01.wav",
+      "rate": 48000,
+      "duration": 0.9984583333333333,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.17877034852847823
+    },
+    {
+      "file": "line_02.wav",
+      "rate": 48000,
+      "duration": 2.4381041666666667,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.1648573496776104
+    },
+    {
+      "file": "line_03.wav",
+      "rate": 48000,
+      "duration": 1.0520833333333333,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.15770652638352622
+    },
+    {
+      "file": "line_04.wav",
+      "rate": 48000,
+      "duration": 1.161,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.21582624312345255
+    },
+    {
+      "file": "line_05.wav",
+      "rate": 48000,
+      "duration": 1.7647291666666667,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.15656228416605952
+    },
+    {
+      "file": "line_06.wav",
+      "rate": 48000,
+      "duration": 1.2190625,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.15088810838143576
+    },
+    {
+      "file": "line_07.wav",
+      "rate": 48000,
+      "duration": 1.6088541666666667,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.21005518085037558
+    },
+    {
+      "file": "line_08.wav",
+      "rate": 48000,
+      "duration": 1.8576041666666667,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.22775267815580086
+    },
+    {
+      "file": "line_09.wav",
+      "rate": 48000,
+      "duration": 1.2064583333333334,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.23906263288134882
+    },
+    {
+      "file": "line_10.wav",
+      "rate": 48000,
+      "duration": 1.3119375,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.18052789317345488
+    },
+    {
+      "file": "line_11.wav",
+      "rate": 48000,
+      "duration": 2.043375,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.1673246322814931
+    },
+    {
+      "file": "line_12.wav",
+      "rate": 48000,
+      "duration": 0.6269583333333333,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.13711881585755514
+    },
+    {
+      "file": "line_13.wav",
+      "rate": 48000,
+      "duration": 1.11325,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.20478757616366486
+    },
+    {
+      "file": "line_14.wav",
+      "rate": 48000,
+      "duration": 2.333625,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.19943178627092198
+    },
+    {
+      "file": "line_15.wav",
+      "rate": 48000,
+      "duration": 2.195708333333333,
+      "peak_dbfs": -0.9152087163722664,
+      "rms": 0.1285787728499394
+    }
+  ],
+  "shots_sampled": 0,
+  "limitations": [
+    "Pixels are upscaled from 540\u00d7960 CPU renders.",
+    "Voices are neural synthesis, not human actors.",
+    "No reference.mp4 was available for comparison."
+  ]
+}
